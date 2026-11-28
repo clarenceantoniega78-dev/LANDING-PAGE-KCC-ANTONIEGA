@@ -1205,12 +1205,12 @@ section,
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.courses .trainer .trainer-profile img {
+.courses .instructor .instructor-profile img {
   max-width: 50px;
   border-radius: 50px;
 }
 
-.courses .trainer .trainer-profile .trainer-link {
+.courses .instructor .instructor-profile .instructor-link {
   padding-left: 10px;
   font-weight: 600;
   font-size: 16px;
@@ -1218,71 +1218,71 @@ section,
   transition: 0.3s;
 }
 
-.courses .trainer .trainer-profile .trainer-link:hover {
+.courses .instructor .instructor-profile .instructor-link:hover {
   color: var(--accent-color);
 }
 
-.courses .trainer .trainer-rank {
+.courses .instructor .instructor-rank {
   font-size: 18px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
 }
 
-.courses .trainer .trainer-rank .user-icon {
+.courses .instructor .instructor-rank .user-icon {
   font-size: 22px;
 }
 
 /*--------------------------------------------------------------
-# Trainers Index Section
+# Instructors Index Section
 --------------------------------------------------------------*/
-.trainers-index .member {
+.instructors-index .member {
   background-color: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   text-align: center;
   margin-bottom: 20px;
 }
 
-.trainers-index .member img {
+.instructors-index .member img {
   margin: -1px -1px 30px -1px;
 }
 
-.trainers-index .member .member-content {
+.instructors-index .member .member-content {
   padding: 0 20px 30px 20px;
 }
 
-.trainers-index .member h4 {
+.instructors-index .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.trainers-index .member span {
+.instructors-index .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.trainers-index .member p {
+.instructors-index .member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.trainers-index .member .social {
+.instructors-index .member .social {
   margin-top: 15px;
 }
 
-.trainers-index .member .social a {
+.instructors-index .member .social a {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   transition: 0.3s;
 }
 
-.trainers-index .member .social a:hover {
+.instructors-index .member .social a:hover {
   color: var(--accent-color);
 }
 
-.trainers-index .member .social i {
+.instructors-index .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
@@ -1913,13 +1913,13 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Trainers Section
+# Instructors Section
 --------------------------------------------------------------*/
-.trainers .member {
+.instructors .member {
   position: relative;
 }
 
-.trainers .member .member-img {
+.instructors .member .member-img {
   margin: 0 80px;
   border-radius: 50%;
   overflow: hidden;
@@ -1927,17 +1927,17 @@ section,
 }
 
 @media (max-width: 1024px) {
-  .trainers .member .member-img {
+  .instructors .member .member-img {
     margin: 0 60px;
   }
 }
 
-.trainers .member .member-img img {
+.instructors .member .member-img img {
   position: relative;
   z-index: 1;
 }
 
-.trainers .member .member-img .social {
+.instructors .member .member-img .social {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
@@ -1951,28 +1951,28 @@ section,
   opacity: 0;
 }
 
-.trainers .member .member-img .social a {
+.instructors .member .member-img .social a {
   transition: 0.3s;
   color: var(--contrast-color);
   font-size: 20px;
   margin: 0 8px;
 }
 
-.trainers .member .member-img .social a:hover {
+.instructors .member .member-img .social a:hover {
   color: var(--accent-color);
 }
 
-.trainers .member .member-info {
+.instructors .member .member-info {
   margin-top: 30px;
 }
 
-.trainers .member .member-info h4 {
+.instructors .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 6px;
   font-size: 18px;
 }
 
-.trainers .member .member-info span {
+.instructors .member .member-info span {
   font-style: italic;
   display: block;
   font-size: 15px;
@@ -1980,12 +1980,12 @@ section,
   margin-bottom: 10px;
 }
 
-.trainers .member .member-info p {
+.instructors .member .member-info p {
   margin-bottom: 0;
   font-size: 14px;
 }
 
-.trainers .member:hover .member-img .social {
+.instructors .member:hover .member-img .social {
   padding-bottom: 0;
   visibility: visible;
   opacity: 1;
